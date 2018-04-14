@@ -33,6 +33,10 @@
 /* Css Form */
 .description { height: auto; box-sizing: border-box; line-height: 1.2; padding: 5px; background-color: #fff;}
 .request-customer { display: block; width: 50%; height: auto; position: relative; margin: 0 auto; border: 1px solid #ccc; border-radius: 10px;}
+.mail-request-customer { width: 100%; display: block; height: auto; padding: 5px;}
+label { font-weight: 600;}
+input[type="mail"] { height: 24px; line-height: 1; width: 60%; border-radius: 10px; padding: 4px; border: 1px solid #000;}
+input[type="submit"] { display: block; margin: 5px auto auto auto; height: 40px; border-radius: 10px; border: 1px solid #cecece; padding: 5px; background-color:#0080ff; color:#fff; }
 /* End Form */
 .store-list { width: 1000px !important; display: block; margin: 0 8%; margin-bottom: 10px; height: 420px;}
 .border-class { border: 1px solid #ccc; border-top-left-radius: 5px; border-top-right-radius: 5px; border-top: none;}
