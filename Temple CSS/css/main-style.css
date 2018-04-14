@@ -30,20 +30,23 @@
 .content { width: 100%; height: 68px; box-sizing: border-box; text-align: center;}
 #title { text-decoration: none; color: #000; line-height: 34px; font-weight: 600;}
 #price { color: #ff0000; line-height: 34px; font-weight: 600;}
-.store-list { width: 1000px !important; display: block; margin: 0 8%; margin-bottom: 10px;}
+.store-list { width: 1000px !important; display: block; margin: 0 8%; margin-bottom: 10px; height: 420px;}
 .border-class { border: 1px solid #ccc; border-top-left-radius: 5px; border-top-right-radius: 5px; border-top: none;}
 .wrap-content { width: 860px; height: 360px; float: left; display: block; margin: 0 auto; overflow: hidden;}
-.box-shop { width: 4000px; height: 360px; display: inline-block; box-sizing: border-box; background-color: blue; margin-left: 0;}
+.box-shop { width: 4000px; height: 420px; display: inline-block; box-sizing: border-box; background-color: blue; margin-left: 0;}
 .thumbnail { width: 140px; height: 100%; position: absolute; right: 0; top: 0; background-color: yellow; box-sizing: border-box;}
-.image-info { width: 860px; height: 360px; float: left; display: block; margin: 0 auto; box-sizing: border-box; overflow: auto; position: absolute;}
+.image-info { width: 860px; height: 420px; float: left; display: block; margin: 0 auto; box-sizing: border-box; overflow: auto; position: absolute;}
 .image-info img { width: 100%}
 .image-info .infor { width: 100%; height: 60px; box-sizing: border-box; display: block;  bottom: 0; position: absolute; left: 0; background-color: #ccc; z-index: 99; padding: 4px;}
 .slide-thumbnail { width: 100%; height: 450px; margin-top: 0; overflow: hidden; display: block; box-sizing: border-box;}
 .image-thumbnail { max-width: 100%; height: 80px; display: block; border: 1px solid red; margin: 4px; box-sizing: border-box;}
 .image-thumbnail img { width: 100%;}
-.footer { width: 100%; display: block; position: relative; overflow: auto; box-sizing: border-box; background-color: red; min-height: 200px; margin-top: 20px;}
+.footer { width: 100%; display: block; position: relative; overflow: auto; box-sizing: border-box;min-height: 200px; margin-top: 20px;background-color: #cecece;}
 .top-content, .middle-content, .bottom-content { width: 100%; position: relative; display: block; box-sizing: border-box; overflow: auto;}
-.top-content { border-bottom: 1px solid #ddd; color:#fff;height: 80px;text-align: center; }
+.top-content { border-bottom: 1px solid #ddd; color:#000;height: 80px;text-align: center; }
 .top-content h1 { font-size: 34px; line-height: 2;}
 .middle-content { height: 120px;}
 .bottom-content { height: 30px; border-top: 1px solid #ddd; text-align: center; line-height: 2; overflow: auto;color: #fff;}
+.col-left, .col-right, .col-middle  { display: block; overflow: auto; box-sizing: border-box; width: 33.33%; height: inherit; float: left;}
+.col-left, .col-right { background-color: #ad2879;}
+.col-middle { background-color: #fff;}
