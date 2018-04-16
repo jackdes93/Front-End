@@ -43,25 +43,27 @@ input[type="submit"] { display: block; margin: 5px auto auto auto; height: 40px;
 .border-class { border: 1px solid #ccc; border-top-left-radius: 5px; border-top-right-radius: 5px; border-top: none;}
 .wrap-content { width: 860px; height: 360px; float: left; display: block; margin: 0 auto; overflow: hidden;}
 .box-shop { width: 4000px; height: 420px; display: inline-block; box-sizing: border-box; background-color: blue; margin-left: 0;}
-.thumbnail { width: 140px; height: 100%; position: absolute; right: 0; top: 0; background-color: yellow; box-sizing: border-box;}
+.thumbnail { width: 140px; height: 100%; position: absolute; right: 0; top: 0; box-sizing: border-box;}
 .image-info { width: 860px; height: 420px; float: left; display: block; margin: 0 auto; box-sizing: border-box; overflow: auto; position: absolute;}
 .image-info img { width: 100%}
 .image-info .infor { width: 100%; height: 60px; box-sizing: border-box; display: block;  bottom: 0; position: absolute; left: 0; background-color: #ccc; z-index: 99; padding: 4px;}
 .slide-thumbnail { width: 100%; height: 450px; margin-top: 0; overflow: hidden; display: block; box-sizing: border-box;}
 .image-thumbnail { max-width: 100%; height: 80px; display: block; border: 1px solid red; margin: 4px; box-sizing: border-box;}
 .image-thumbnail img { width: 100%;}
-.footer { width: 100%; display: block; position: relative; overflow: auto; box-sizing: border-box;min-height: 200px; margin-top: 20px;background-color: #cecece;}
-.top-content, .middle-content, .bottom-content { width: 100%; position: relative; display: block; box-sizing: border-box; overflow: auto;}
-.top-content { border-bottom: 1px solid #ddd; color:#000;height: 80px;text-align: center; }
+.footer { width: 100%; display: block; position: relative; overflow: auto; box-sizing: border-box;min-height: 200px; margin-top: 20px;}
+.top-content, .middle-content, .bottom-content { height: auto; position: relative; display: block; box-sizing: border-box; overflow: auto;}
+.top-content { border-bottom: 1px solid #ddd; color:#000;height: auto;text-align: center; }
 .top-content h1 { font-size: 34px; line-height: 2;}
-.middle-content { height: 120px;}
-.bottom-content { height: 30px; border-top: 1px solid #ddd; text-align: center; line-height: 2; overflow: auto;color: #fff;}
+.infor-contact { box-sizing: border-box; height: inherit; display: block; overflow: auto;}
+.infor-contact i { font-size: 1.1em;}
+.infor-contact p { float: left; width: 100%; text-align: left; height: 28px; font-size: 1.1em; margin: 5px 0;}
+.middle-content { background-color: #fff;}
+.bottom-content { border-top: 1px solid #ddd; text-align: center; line-height: 2; overflow: auto;color: #000;}
+.bottom-content p { font-weight: bold;}
 .col-left, .col-right, .col-middle  { display: block; overflow: auto; box-sizing: border-box; width: 33.33%; height: inherit; float: left;}
-.col-left, .col-right { background-color: #ad2879;}
-.col-middle { background-color: #fff;}
 /* Short Link */
 .short-link { list-style: none; padding: 10px;}
 .short-link li { height: 24px;}
-.short-link a { text-decoration: none; font-size: 14px; color: #000; }
+.short-link a { text-decoration: none; font-size: 14px; color: #000;}
 .short-link a:hover { font-weight: bold; color: #0080ff;}
 /* End short-link */
