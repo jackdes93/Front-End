@@ -64,6 +64,6 @@ input[type="submit"] { display: block; margin: 5px auto auto auto; height: 40px;
 /* Short Link */
 .short-link { list-style: none; padding: 10px;}
 .short-link li { height: 24px;}
-.short-link a { text-decoration: none; font-size: 14px; color: #000;}
+.short-link a { text-decoration: none; font-size: 14px; color: #000; font-weight: bold;}
 .short-link a:hover { font-weight: bold; color: #0080ff;}
 /* End short-link */
