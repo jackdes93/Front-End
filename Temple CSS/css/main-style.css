@@ -46,7 +46,7 @@ input[type="submit"] { display: block; margin: 5px auto auto auto; height: 40px;
 .thumbnail { width: 140px; height: 100%; position: absolute; right: 0; top: 0; box-sizing: border-box;}
 .image-info { width: 860px; height: 420px; float: left; display: block; margin: 0 auto; box-sizing: border-box; overflow: auto; position: absolute;}
 .image-info img { width: 100%}
-.image-info .infor { width: 100%; height: 60px; box-sizing: border-box; display: block;  bottom: 0; position: absolute; left: 0; background-color: #ccc; z-index: 99; padding: 4px;}
+.image-info .info { width: 100%; height: 60px; box-sizing: border-box; display: block;  bottom: 0; position: absolute; left: 0; background-color: #ccc; z-index: 99; padding: 4px;}
 .slide-thumbnail { width: 100%; height: 450px; margin-top: 0; overflow: hidden; display: block; box-sizing: border-box;}
 .image-thumbnail { max-width: 100%; height: 80px; display: block; border: 1px solid red; margin: 4px; box-sizing: border-box;}
 .image-thumbnail img { width: 100%;}
@@ -54,9 +54,9 @@ input[type="submit"] { display: block; margin: 5px auto auto auto; height: 40px;
 .top-content, .middle-content, .bottom-content { height: auto; position: relative; display: block; box-sizing: border-box; overflow: auto;}
 .top-content { border-bottom: 1px solid #ddd; color:#000;height: auto;text-align: center; }
 .top-content h1 { font-size: 34px; line-height: 2;}
-.infor-contact { box-sizing: border-box; height: inherit; display: block; overflow: auto;}
-.infor-contact i { font-size: 1.1em;}
-.infor-contact p { float: left; width: 100%; text-align: left; height: 28px; font-size: 1.1em; margin: 5px 0;}
+.info-contact { box-sizing: border-box; height: inherit; display: block; overflow: auto;}
+.info-contact i { font-size: 1.1em;}
+.info-contact p { float: left; width: 100%; text-align: left; height: 28px; font-size: 1.1em; margin: 5px 0;}
 .middle-content { background-color: #fff;}
 .bottom-content { border-top: 1px solid #ddd; text-align: center; line-height: 2; overflow: auto;color: #000;}
 .bottom-content p { font-weight: bold;}
