@@ -1,0 +1,20 @@
+html, body { margin: 0; padding: 0; font-family: Helvetica, sans-serif;}
+body, .main-wrapper { width: 100%;}
+nav { width: 100%; height: 58px; margin: 0 auto; background-color: #4a90e2;}
+.wrapper-nav { width: 100%; max-width: 1200px; height: 58px; margin: 0 auto;}
+.logo {padding: 18px 32px; font-size: 30px; color: #fff; font-weight: 600; float: left;}
+.search-bar { float: left; border: none; padding: 12px 20px; box-sizing: border-box}
+.search-bar form { width: 100%; height: 24px; background-color: #fff; padding: 5px; border-radius: 5px;}
+input[type="text"] { border: none; margin: 3px auto; font-size:14px;}
+button { float: right; margin:3px auto; border: none; background-color: transparent; font-size: 16px;}
+.menu-horizontal { float: left; padding: 2px; width: 500px;}
+.menu-horizontal ul { list-style: none; text-align: center; overflow: hidden; padding: 0; margin: 0; box-sizing: border-box; width: 100%;}
+.menu-horizontal ul li { float: left; padding: 18px 26px;}
+.menu-horizontal ul li a { text-decoration: none; color: #fff; font-size: 14px;font-weight: lighter;}
+.cart { float: left; color: #fff; width: 120px; padding: 8px 10px; text-align: center; height: 40px; line-height: 40px;}
+.cart i { font-size: 24px; margin: 8px auto;}
+.sub-nav { width: 100%; height: 36px;background-color:#ffde02; line-height: 36px; }
+.sub-nav .wrapper-nav { height: inherit;}
+.wrapper-nav .btn-menu { padding: 0 20px; width: 200px; height: 36px; line-height: 1;}
+.btn-menu i { font-size: 20px; margin-right: 20px;}
+.btn-menu span { line-height: 1; font-size: 18px;}
