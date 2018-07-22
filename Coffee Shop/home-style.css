@@ -29,8 +29,8 @@ button { float: right; margin:3px auto; border: none; background-color: transpar
 .new-product { width: 100%; margin-top: 10px; box-sizing: border-box; height: auto; overflow: hidden; padding-bottom: 4px;}
 .title { width: inherit; padding: 10px; text-align: left; border-bottom: 2px solid #ccc;box-sizing: border-box; margin-bottom: 10px;}
 .content { width: 100%; margin: 0 auto; box-sizing: border-box; height: auto; overflow: hidden;}
-.col-4 {  box-sizing: border-box; height: auto; width: 24.5%; float: left; padding: 50px; background-color: #ff3;margin: 2px 4px 2px 0;}
-.col-4:nth-child(2n) { margin-left: 0; margin-right: 2px; }
-.col-4:nth-child(2n+1) { margin-left: 5px;}
+.col-4 {  box-sizing: border-box; height: auto; width: 24.58%; float: left; padding: 50px; background-color: #ff3;margin: 2px 4px 2px 0;}
+.col-4:nth-child(2n) { margin-left: 0; margin-right: 0; }
+.col-4:nth-child(2n+1) { margin-left: 4px;}
 .footer {width: 100%; box-sizing: border-box; background-color: #000; color: #fff; margin: 0 auto; text-align: center; padding: 50px; padding-bottom: 0;}
 .footer .copy-right { text-align: center; color: #cecece; }
