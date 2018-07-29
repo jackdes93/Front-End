@@ -41,8 +41,13 @@ button { float: right; margin:3px auto; border: none; background-color: transpar
 .box-text .detail-product a { line-height: 36px; color: #fff; font-size: .7em;}
 .box-text .title-product a, .box-text .detail-product a { text-decoration: none;  text-align: center;}
 .price-product span { color: #ff0000; font-size: 1.2em;}
-.col-4 { box-sizing: border-box; height: auto; width: 24.58%; float: left; padding: 50px; background-color: #ff3;margin: 2px 4px 2px 0;}
+.col-4 { box-sizing: border-box; height: auto; width: 24.58%; float: left;margin: 2px 4px 2px 0;}
 .col-4:nth-child(2n) { margin-left: 0; margin-right: 0; }
 .col-4:nth-child(2n+1) { margin-left: 4px;}
+.col-4 .box-image { width: 90%; margin: 10px auto; }
+.col-4 .box-text { width: 100%; padding: 10px; box-sizing: border-box; text-align: left;}
+.col-4 .box-text .title-product { font-size: 0.8em;}
+.col-4 .box-text .price-product { font-size: .9em;}
+.col-4 .box-text .detail-product { float: left; text-align: center; box-sizing: border-box; width: 50%; font-size: .8em;}
 .footer {width: 100%; box-sizing: border-box; background-color: #000; color: #fff; margin: 0 auto; text-align: center; padding: 50px; padding-bottom: 0;}
 .footer .copy-right { text-align: center; color: #cecece; }
