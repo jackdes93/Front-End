@@ -1,5 +1,5 @@
-html, body { margin: 0; padding: 0; font-family: Helvetica, sans-serif;font-size: 14px;}
-body, .main-wrapper { width: 100%;}
+html, body { margin: 0; padding: 0; font-family: Helvetica, sans-serif;font-size: 14px; background-color: #f1f1f1;}
+body, .main-wrapper { width: 100%; padding: 0;}
 nav { width: 100%; height: 58px; margin: 0 auto; background-color: #4a90e2;}
 .wrapper-nav { width: 100%; max-width: 1200px; height: 58px; margin: 0 auto;}
 .logo {padding: 18px 32px; font-size: 30px; color: #fff; font-weight: 600; float: left;}
@@ -18,16 +18,24 @@ button { float: right; margin:3px auto; border: none; background-color: transpar
 .wrapper-nav .btn-menu { padding: 0 20px; width: 200px; height: 36px; line-height: 1;}
 .btn-menu i { font-size: 20px; margin-right: 20px;}
 .btn-menu span { font-size: 18px;}
-.banner { width: 100%; max-width: 1200px; display: grid; margin: 0 auto 8px auto; box-sizing: border-box; grid-template-columns: 12; grid-template-rows: 4;}
-.box { background-color: #fff; text-align: center; font-size: 28px; box-sizing: border-box; margin: 2px;}
-.menu { grid-column: 1; grid-row:1/span 3; padding: 100px 0;}
-.top-banner { grid-column:2/12; grid-row:1/span 3; padding: 100px;}
-.delivery { grid-column: 1; grid-row: 4;padding: 50px 0;}
-.left-banner { grid-column: 2/7;grid-row: 4;padding: 50px 0;}
-.right-banner { grid-column: 7/12; grid-row: 4; padding: 50px 0;}
+.banner { width: 100%; max-width: 1200px; display: flex; margin: 0 auto 8px auto; box-sizing: border-box;}
+.box { background-color: #fff; box-sizing: border-box; margin: 2px; text-align: center; font-size: 28px;}
+.left-col { flex: 1; box-sizing: border-box;}
+.left-col .menu { flex: 1; height: auto; box-sizing: border-box; border: 1px solid #ccc;}
+.menu ul { width: 100%; box-sizing: border-box;padding: 0; margin: 0;}
+.menu ul li { list-style: none; width: 100%; height: 36px; border-bottom: 1px solid #ccc; text-align: center;}
+.menu ul li:last-child {border-bottom: none;}
+ul li a { text-decoration: none; font-size: 16px; color: #000; text-align: left;}
+.menu li a i {float: right; margin-right: 5px; line-height: 36px;}
+.left-col .delivery { flex: 1; height: 180px; box-sizing: border-box; margin-top: 4px;}
+.left-col .delivery img { width: 100%; height: 100%;}
+.right-col { flex: 3; box-sizing: border-box;   }
+.top-banner {display: block; width: 100%; box-sizing: border-box; height: 200px; }
+.left-banner, .right-banner { display: block; float: left; width: 50%; box-sizing: border-box; height: 200px; }
 .container { width: inherit; margin: 2px auto 0 auto; max-width: 1200px;padding-bottom: 10px;}
-.row { width: 100%; margin-top: 10px; box-sizing: border-box; height: auto; overflow: hidden; padding-bottom: 4px;}
-.title { width: inherit; padding: 10px; text-align: left; border-bottom: 2px solid #ccc;box-sizing: border-box; margin-bottom: 10px;}
+.row { width: 100%; margin-top: 10px; box-sizing: border-box; height: auto; overflow: hidden; padding-bottom: 4px; border-top-left-radius: 10px;}
+.title { width: inherit; padding: 10px; text-align: left; border-bottom: 1px solid #ccc;box-sizing: border-box; margin-bottom: 10px; padding-left: 0; border-top-right-radius: 10px; border-top-left-radius: 10px;}
+.title span { width: 120px; background-color:#ffde02; padding: 10px; border-top-right-radius: 10px; border-top-left-radius: 10px;}
 .content { width: 100%; margin: 0 auto; box-sizing: border-box; height: auto; overflow: hidden;}
 .slide { width: 3000px; margin-left:0; }
 .col-4-slide { width: 280px; height: auto; float: left; background-color: #fff;box-sizing: border-box;}
@@ -46,8 +54,8 @@ button { float: right; margin:3px auto; border: none; background-color: transpar
 .col-4:nth-child(2n+1) { margin-left: 4px;}
 .col-4 .box-image { width: 90%; margin: 10px auto; }
 .col-4 .box-text { width: 100%; padding: 10px; box-sizing: border-box; text-align: left;}
-.col-4 .box-text .title-product { font-size: 0.8em;}
-.col-4 .box-text .price-product { font-size: .9em;}
+.col-4 .box-text .title-product { font-size: .65em;}
+.col-4 .box-text .price-product { font-size: .6em;}
 .col-4 .box-text .detail-product { float: left; text-align: center; box-sizing: border-box; width: 50%; font-size: .8em;}
 .footer {width: 100%; box-sizing: border-box; background-color: #000; color: #fff; margin: 0 auto; text-align: center; padding: 50px; padding-bottom: 0;}
 .footer .copy-right { text-align: center; color: #cecece; }
