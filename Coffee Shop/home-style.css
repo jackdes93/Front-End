@@ -57,5 +57,10 @@ ul li a { text-decoration: none; font-size: 16px; color: #000; text-align: left;
 .col-4 .box-text .title-product { font-size: .65em;}
 .col-4 .box-text .price-product { font-size: .6em;}
 .col-4 .box-text .detail-product { float: left; text-align: center; box-sizing: border-box; width: 50%; font-size: .8em;}
+.link-short { width: 100%; padding: 5px; box-sizing: border-box; display: flex; flex-direction: column; flex-flow: wrap; justify-content: space-around;} 
+.link-short .title { font-size: .6em; border-bottom: none;}
+.box-short { width: 33%; height: 200px; box-sizing: border-box; margin-bottom: 4px;}
+.box-short .title h3 { font-size: .88em;}
+.box-short .title h3 span { display: inline-block; background: #fff;}
 .footer {width: 100%; box-sizing: border-box; background-color: #000; color: #fff; margin: 0 auto; text-align: center; padding: 50px; padding-bottom: 0;}
 .footer .copy-right { text-align: center; color: #cecece; }
