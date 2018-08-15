@@ -32,7 +32,7 @@ ul li a { text-decoration: none; font-size: 16px; color: #000; text-align: left;
 .right-col { flex: 3; box-sizing: border-box;   }
 .top-banner {display: block; width: 100%; box-sizing: border-box; height: 200px; }
 .left-banner, .right-banner { display: block; float: left; width: 50%; box-sizing: border-box; height: 200px; }
-.container { width: inherit; margin: 2px auto 0 auto; max-width: 1200px;padding-bottom: 10px;}
+.container { width: inherit; margin: 2px auto 0 auto; max-width: 1200px;padding-bottom: 10px; box-sizing: border-box;}
 .row { width: 100%; margin-top: 10px; box-sizing: border-box; height: auto; overflow: hidden; padding-bottom: 4px; border-top-left-radius: 10px;}
 .title { width: inherit; padding: 10px; text-align: left; border-bottom: 1px solid #ccc;box-sizing: border-box; margin-bottom: 10px; padding-left: 0; border-top-right-radius: 10px; border-top-left-radius: 10px;}
 .title span { width: 120px; background-color:#ffde02; padding: 10px; border-top-right-radius: 10px; border-top-left-radius: 10px;}
@@ -64,3 +64,21 @@ ul li a { text-decoration: none; font-size: 16px; color: #000; text-align: left;
 .box-short .title h3 span { display: inline-block; background: #fff;}
 .footer {width: 100%; box-sizing: border-box; background-color: #000; color: #fff; margin: 0 auto; text-align: center; padding: 50px; padding-bottom: 0;}
 .footer .copy-right { text-align: center; color: #cecece; }
+
+@media only screen and (min-width: 320px) and (max-width: 736px) {
+    .main-wrapper { margin: 0 auto;}
+    nav { width: 100%; height: auto; overflow: hidden; margin-bottom: 8px;}
+    .wrapper-nav { display: block; box-sizing: border-box; height: auto; overflow: hidden;} 
+    .logo {padding:10px; position: relative; top: 55%; left: 0; transform: translate(36%, 15%);}
+    .search-bar { display: none;}
+    .menu-horizontal { width: 100%; display: block; position: relative;  height: 32px;background-color: #fff;}
+    .menu-horizontal ul {width: 100%; display: flex; flex-direction: row; justify-content: center; height: 36px;}
+    .menu-horizontal ul li { padding: 0px; border-left: 1px solid #4a90e2;  text-align: center; flex: 1; line-height: 36px;}
+    .menu-horizontal ul li:first-child { border-left: none;}
+    .menu-horizontal ul li a { font-size: .7em; color: #4a90e2; padding: 4px; font-weight: 600;}
+    .cart { display: inline-block; width: 32px; height: 32px; position: absolute; top: 0%; left: 80%;}
+    .banner { display: none;}
+    .container { padding:10px 5px; margin: 0;}
+    .col-4 { width: 100%; margin: 0 !important;}
+    .row { width: auto;}
+}
