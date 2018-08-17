@@ -3,12 +3,12 @@ body, .main-wrapper { width: 100%; padding: 0;}
 nav { width: 100%; height: 58px; margin: 0 auto; background-color: #4a90e2;}
 .wrapper-nav { width: 100%; max-width: 1200px; height: 58px; margin: 0 auto;}
 .logo { padding: 14px 32px; float: left;}
-.logo a { font-size: 30px; color: #fff; font-weight: 600;  text-decoration: none;}
-.search-bar { float: left; border: none; padding: 12px 20px; box-sizing: border-box}
-.search-bar form { width: 100%; height: 24px; background-color: #fff; padding: 5px; border-radius: 5px;}
+.logo a { font-size: 2.35em; color: #fff; font-weight: 600;  text-decoration: none;}
+.search-bar { float: left; border: none; padding: 12px 30px; box-sizing: border-box}
+.search-bar form {height: 24px; background-color: #fff; padding: 5px 15px; border-radius: 5px;}
 input[type="text"] { border: none; margin: 3px auto; font-size:14px;}
 button { float: right; margin:3px auto; border: none; background-color: transparent; font-size: 16px;}
-.menu-horizontal { float: left; padding: 2px; width: 400px;}
+.menu-horizontal { float: left; padding: 2px; width: 300px; margin-left: 5%;}
 .menu-horizontal ul { list-style: none; text-align: center; overflow: hidden; padding: 0; margin: 0; box-sizing: border-box; width: 100%;}
 .menu-horizontal ul li { float: left; padding: 4px 16px;}
 .menu-horizontal ul li a { text-decoration: none; color: #fff; font-size: 12px;font-weight: lighter;}
@@ -19,6 +19,7 @@ button { float: right; margin:3px auto; border: none; background-color: transpar
 #article {  font-size: 16px; font-weight: 400; width: 32px; height: 32px;}
 #article > span { font-size: 12px;}
 .cart { float: left; color: #fff; width: 120px; padding: 8px 10px; text-align: center; height: 40px; line-height: 40px;}
+.cart > a { color: #fff;}
 .cart i { font-size: 24px; margin: 8px auto;}
 .sub-nav { width: 100%; height: 36px; background-color:#ffde02; display: inline-block;}
 .sub-nav .wrapper-nav { height: inherit; }
@@ -78,20 +79,25 @@ ul li a { text-decoration: none; font-size: 16px; color: #000; text-align: left;
     .main-wrapper { margin: 0 auto;}
     nav { width: 100%; height: auto; overflow: hidden;}
     .wrapper-nav { display: block; box-sizing: border-box; height: auto; overflow: hidden; position: relative;} 
-    .logo {padding: 10px; width: 100%; text-align: center; box-sizing: border-box; margin-top: 10px; font-size: 32px;}
+    .logo {padding: 10px; width: 100%; text-align: center; box-sizing: border-box; margin-top: 10px; font-size: 1.1em;}
     .search-bar { display: block; width: 85%; padding: 5px;}
     .search-bar form { width: auto;}
-    .menu-horizontal { width: 100%; display: block; position: relative;  height: 32px;background-color: #fff;}
-    .menu-horizontal ul {width: 100%; display: flex; flex-direction: row; justify-content: center; height: 36px;}
-    .menu-horizontal ul li { padding: 0px; border-left: 1px solid #4a90e2;  text-align: center; flex: 1; line-height: 36px;}
+    .menu-horizontal { width: 100%; display: block; position: relative;  height: 58px; margin: 0;}
+    .menu-horizontal ul {width: 100%; display: flex; flex-direction: row; justify-content: center; height: inherit;}
+    .menu-horizontal ul li { padding: 0px; border-left: 1px solid #fff; border-top: 1px solid #fff; border-bottom: 1px solid #fff; text-align: center; flex: 1;}
     .menu-horizontal ul li:first-child { border-left: none;}
-    .menu-horizontal ul li a { font-size: .7em; color: #4a90e2; padding: 4px; font-weight: 600;}
-    .cart { display: inline-block; width: 32px; height: 32px; position: absolute; right: 6px; bottom: 30%; padding: 6px;}
+    .menu-horizontal ul li a { font-size: .9em; color: #fff;  font-weight: 400;}
+    .cart { display: inline-block; width: 32px; height: 32px; position: absolute; right: 6px; bottom: 40%; padding: 6px;}
     .wrapper-nav .btn-menu{ line-height: unset;}
     .banner { width: 100%; overflow: hidden; box-sizing: border-box;}
     .left-col { display: none;}
     .right-col { flex: 1;}
     .container { padding:10px 5px; margin: 0;}
     .col-4 { width: 100%; margin: 0 !important;}
+    .col-4-slide { width: 210px;}
     .row { width: auto;}
+}
+
+@media only screen and (min-width: 412px) and (max-width:736px) {
+    .col-2 { width: 50%;}
 }
