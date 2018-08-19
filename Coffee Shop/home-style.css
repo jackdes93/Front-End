@@ -2,15 +2,15 @@ html, body { margin: 0; padding: 0; font-family: Helvetica, sans-serif;font-size
 body, .main-wrapper { width: 100%; padding: 0;}
 nav { width: 100%; height: 58px; margin: 0 auto; background-color: #4a90e2;}
 .wrapper-nav { width: 100%; max-width: 1200px; height: 58px; margin: 0 auto;}
-.logo { padding: 14px 32px; float: left;}
+.logo { padding: 12px 32px; float: left;}
 .logo a { font-size: 2.35em; color: #fff; font-weight: 600;  text-decoration: none;}
 .search-bar { float: left; border: none; padding: 12px 30px; box-sizing: border-box}
 .search-bar form {height: 24px; background-color: #fff; padding: 5px 15px; border-radius: 5px;}
 input[type="text"] { border: none; margin: 3px auto; font-size:14px;}
 button { float: right; margin:3px auto; border: none; background-color: transparent; font-size: 16px;}
-.menu-horizontal { float: left; padding: 2px; width: 300px; margin-left: 5%;}
+.menu-horizontal { float: left; padding: auto; width: 300px; margin-left: 5%;}
 .menu-horizontal ul { list-style: none; text-align: center; overflow: hidden; padding: 0; margin: 0; box-sizing: border-box; width: 100%;}
-.menu-horizontal ul li { float: left; padding: 4px 16px;}
+.menu-horizontal ul li { float: left; padding: 5px 16px;}
 .menu-horizontal ul li a { text-decoration: none; color: #fff; font-size: 12px;font-weight: lighter;}
 #adhesive, #pipe, #etool{ width: 32px; height: 32px; display: block; margin: auto;}
 #adhesive { background: url(./image/list-icon.png) 0px 4px;}
@@ -69,11 +69,25 @@ ul li a { text-decoration: none; font-size: 16px; color: #000; text-align: left;
 .col-4 .box-text .detail-product { float: left; text-align: center; box-sizing: border-box; width: 50%; font-size: .8em;}
 .link-short { width: 100%; padding: 5px; box-sizing: border-box; display: flex; flex-direction: column; flex-flow: wrap; justify-content: space-around;} 
 .link-short .title { font-size: .6em; border-bottom: none;}
-.box-short { width: 33%; height: 200px; box-sizing: border-box; margin-bottom: 4px;}
-.box-short .title h3 { font-size: .88em;}
-.box-short .title h3 span { display: inline-block; background: #fff;}
-.footer {width: 100%; box-sizing: border-box; background-color: #000; color: #fff; margin: 0 auto; text-align: center; padding: 50px; padding-bottom: 0;}
-.footer .copy-right { text-align: center; color: #cecece; }
+.box-short { width: 33%; height: auto; box-sizing: border-box;}
+.box-short > .title { padding: 0; margin-bottom: 0;} 
+.box-short .title h3 { font-size: .88em; padding: 0; margin: 0; }
+.box-short .title h3 span { display: inline-block; background: #fff; font-size: 1.2em; font-weight: 600;}
+.box-short > .content { text-align: left;}
+.box-short >  .content > ul { margin: 0; padding-left: 10px;}
+.box-short .content ul > li { list-style: none; text-align: left; margin: 0 auto 12px 0;}
+.box-short .content ul > li > a { color: #4a90e2;}
+.footer {width: 100%; box-sizing: border-box; background-color: #fff; color: #000; margin: 0 auto; text-align: center; box-shadow: -1px -2px 2px rgba(0,0,0,0.32);}
+.footer .title-footer { padding: 20px 0px; display: inline-block;}
+.title-footer h1 { font-size: 2.2em; font-weight: 900; color: #ff0000;}
+.content .infor { color: #000; font-weight: 400; font-size: 1.2em;}
+.footer .content .box-short .col-link {padding: 0; margin: 0; text-align: left; }
+.col-link li { list-style: none; padding-bottom: 10px;}
+.col-link li a { color: #4a90e2;}
+#facebook { background: url(./image/list-icon.png) -84px -32px; display: inline-block; width: 24px; height: 24px; padding-right: 4px;}
+#youtube { background: url(./image/list-icon.png) -52px -28px; display: inline-block; width: 30px; height: 28px; padding-right: 4px;}
+#maps { background: url(./image/list-icon.png) -108px -32px; display: inline-block; width: 22px; height: 24px; padding-right: 4px;}
+.footer .copy-right { text-align: center; color: #bbbbbb; }
 
 @media only screen and (min-width: 320px) and (max-width: 736px) {
     .main-wrapper { margin: 0 auto;}
@@ -96,6 +110,7 @@ ul li a { text-decoration: none; font-size: 16px; color: #000; text-align: left;
     .col-4 { width: 100%; margin: 0 !important;}
     .col-4-slide { width: 210px;}
     .row { width: auto;}
+    .box-short { flex: 1;}
 }
 
 @media only screen and (min-width: 412px) and (max-width:736px) {
